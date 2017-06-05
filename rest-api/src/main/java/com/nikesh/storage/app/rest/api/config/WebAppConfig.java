@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.nikesh.storage.app.rest.api", "storage.services"})
-@EnableJpaRepositories(basePackages = "storage.repositories")
+@ComponentScan(basePackages = {"com.nikesh.storage.app.rest.api", "com.nikesh.storage.app.services"})
+@EnableJpaRepositories(basePackages = "com.nikesh.storage.app.repositories")
 public class WebAppConfig {
 }

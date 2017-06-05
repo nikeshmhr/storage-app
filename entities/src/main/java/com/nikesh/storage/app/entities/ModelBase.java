@@ -1,4 +1,4 @@
-package storage.entities;
+package com.nikesh.storage.app.entities;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 

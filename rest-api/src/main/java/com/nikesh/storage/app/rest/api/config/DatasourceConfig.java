@@ -71,7 +71,7 @@ public class DatasourceConfig {
         return properties;
     }
 
-    @Bean(name = "transactionManager")
+    @Bean
     public JpaTransactionManager transactionManager() {
         JpaTransactionManager transactionManager = new JpaTransactionManager();
         transactionManager.setEntityManagerFactory(entityManagerFactory().getObject());
