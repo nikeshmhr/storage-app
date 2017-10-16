@@ -1,4 +1,4 @@
-package com.nikesh.storage.app.rest.api.constants;
+package com.nikesh.storage.app.support.constants;
 
 /**
  * Class that holds all the api endpoint string literal values.
