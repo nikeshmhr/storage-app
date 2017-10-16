@@ -1,7 +1,7 @@
 package com.nikesh.storage.app.rest.api.controllers;
 
 import com.nikesh.storage.app.entities.UserInfo;
-import com.nikesh.storage.app.rest.api.constants.ResourceConstants;
+import com.nikesh.storage.app.support.constants.ResourceConstants;
 import com.nikesh.storage.app.services.UserInfoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
